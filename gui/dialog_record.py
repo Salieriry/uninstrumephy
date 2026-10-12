@@ -363,3 +363,7 @@ class RecordDialog(QDialog):
             self.recorder_thread.request_stop()
             self.recorder_thread.wait(1500)
         super().closeEvent(event)
+
+
+# Alias para compatibilidade com importações em diferentes versões da interface.
+DialogRecord = RecordDialog
