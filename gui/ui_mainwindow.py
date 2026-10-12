@@ -247,7 +247,7 @@ class Ui_Dialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Tone Matcher"))
         self.btn_load.setText(_translate("Dialog", "＋  Carregar Música de Referência…"))
-        self.btn_record.setText(_translate("Dialog", "🎙  Gravar Entrada (ESP / Mic)…"))
+        self.btn_record.setText(_translate("Dialog", "🎙  Escutar / Gravar Entrada (ESP / Mic)…"))
         self.lbl_filepath.setText(_translate("Dialog", "Nenhum arquivo selecionado."))
         self.lbl_cover.setText(_translate("Dialog", "♪"))
         self.lbl_metadata.setText(_translate("Dialog", "Nenhuma informação disponível."))
